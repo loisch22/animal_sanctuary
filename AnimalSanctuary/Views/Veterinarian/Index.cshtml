@@ -1,0 +1,13 @@
+﻿@model IEnumerable<AnimalSanctuary.Models.Veterinarian>
+
+<p>@Html.ActionLink("Create new veterinarian", "Create")
+
+<h1>Veterinarians</h1>
+
+@foreach (var vet in Model)
+{
+    <li>@Html.DisplayFor(model => vet.Name) | @Html.DisplayNameFor(model => vet.Specialty): @Html.DisplayFor(model => vet.Specialty) |
+        @Html.ActionLink("Edit", "Edit", new { id = vet.VeterinarianId })
+    </li>
+
+}
