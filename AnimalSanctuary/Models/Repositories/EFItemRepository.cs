@@ -35,7 +35,6 @@ namespace AnimalSanctuary.Models
             return veterinarian;
         }
 
-
         public Veterinarian Edit(Veterinarian veterinarian)
         {
             db.Entry(veterinarian).State = EntityState.Modified;

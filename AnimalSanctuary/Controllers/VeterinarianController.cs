@@ -57,6 +57,7 @@ namespace AnimalSanctuary.Controllers
         public IActionResult Edit(Veterinarian veterinarian)
         {
             vetRepo.Edit(veterinarian);
+
             return RedirectToAction("Index");
         }
 

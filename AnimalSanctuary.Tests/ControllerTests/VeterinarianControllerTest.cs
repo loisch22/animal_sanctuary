@@ -81,7 +81,9 @@ namespace AnimalSanctuary.Tests
         [TestMethod]
         public void Db_EditVetDetails_Test()
         {
-            VeterinarianController controller = new VeterinarianController();
+            VeterinarianController controller = new VeterinarianController(db);
+
+
 
         }
     }
