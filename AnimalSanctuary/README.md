@@ -2,7 +2,7 @@
 
 ## By Lois Choi
 
-#### _This is dedicated web site to post our travel experiences all over the world., 10.10.17_
+#### _An application to add, update, delete animals living in the santuary along with their associated veterinarians., 10.10.17_
 
 
 ## Description
